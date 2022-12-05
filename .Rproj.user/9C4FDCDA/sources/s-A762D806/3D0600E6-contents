@@ -1,0 +1,15 @@
+Package: CCHZDISO
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: person('ZhuoZhang',email = '1447841396@qq.com')
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: The distance between the simulated value and the observed value is used to quantitatively evaluate the overall performance of different models to the reference model. 
+    The overall performance of different models to the reference model can be quantified. 
+    The distance combines different statistical measures of correlation coefficient, absolute error and root mean square error, namely diso.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    xlsx,
+    graphics
