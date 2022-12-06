@@ -6,8 +6,7 @@
 
 
 # 输入数据,导入统计指标数据
-library(xlsx)
-x = read.xlsx('./data/index.xls',1)
+x = read.csv('./data/index.csv')
 
 
 # 对指标进行归一化处理，根据实际情况选择归一化函数，这里用的是最大值归一化函数
@@ -42,7 +41,7 @@ for (i in 1:3) {
 diso <- cbind(diso_dm1,diso_dm2,diso_dm3)
 
 # 输出结果
-write.xlsx(diso,'./data/diso.xls')
+write.csv(diso,'./data/diso.csv')
 
 
 # 绘图二维diso图
