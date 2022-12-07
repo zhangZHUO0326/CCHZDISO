@@ -8,7 +8,6 @@ Author:
     person('Xi','Chen', role='aut'),
     person('Deliang',Chen', role='aut'),
     person('Qiming','Zhou', role='aut')
-Maintainer: ZhuoZhang <ZhuoZhang@github.com/zhangZHUO0326>
 Description: CCHZ: the initials of the main contributor's surname, C from
     researcher Chen Xi, C from Academician Chen Deliang, H from researcher 
     Hu Zengyun, Z from Professor Zhou Qiming.
