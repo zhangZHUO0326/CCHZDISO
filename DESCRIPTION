@@ -3,23 +3,11 @@ Type: Package
 Title: A method for evaluating the accuracy of models
 Version: 0.1.2
 Author: 
-    person(given = 'Zhuo',
-        family = 'Zhang',
-        role = 'cre',
-        email = '1447841396@qq.com'),
-    person(given = 'Zengyun',
-        family = 'Hu',
-        role='aut',
-        email= 'huzengyun@ms.xjb.ac.cn'),
-    person(given = 'Xi',
-        family = 'Chen',
-        role='aut'),
-    person(given = 'Deliang',
-        family = 'Chen',
-        role='aut'),
-    person(given = 'Qiming',
-        family = 'Zhou',
-        role='aut')
+    person('Zhuo','Zhang', role = 'cre',email = '1447841396@qq.com'),
+    person('Zengyun','Hu',role='aut',email= 'huzengyun@ms.xjb.ac.cn'),
+    person('Xi','Chen', role='aut'),
+    person('Deliang',Chen', role='aut'),
+    person('Qiming','Zhou', role='aut')
 Maintainer: ZhuoZhang <ZhuoZhang@github.com/zhangZHUO0326>
 Description: CCHZ: the initials of the main contributor's surname, C from
     researcher Chen Xi, C from Academician Chen Deliang, H from researcher 
