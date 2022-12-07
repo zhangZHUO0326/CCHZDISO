@@ -1,15 +1,38 @@
 Package: CCHZDISO
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: person('ZhuoZhang',email = '1447841396@qq.com')
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: The distance between the simulated value and the observed value is used to quantitatively evaluate the overall performance of different models to the reference model. 
-    The overall performance of different models to the reference model can be quantified. 
-    The distance combines different statistical measures of correlation coefficient, absolute error and root mean square error, namely diso.
-License: MIT
+Title: A method for evaluating the accuracy of models
+Version: 0.1.2
+Author@R: 
+    c(person(given = 'Zhuo',
+        family = 'Zhang',
+        role = c('cre'),
+        email = '1447841396@qq.com')
+    person(given = 'Zengyun',
+        family = 'Hu',
+        role='aut',
+        email= 'huzengyun@ms.xjb.ac.cn')
+    person(given = 'Xi',
+        family = 'Chen',
+        role='aut')
+    person(given = 'Deliang',
+        family = 'Chen',
+        role='aut')
+    person(given = 'Qiming',
+        family = 'Zhou',
+        role='aut')
+    )
+Maintainer: ZhuoZhang <ZhuoZhang@github.com/zhangZHUO0326>
+Description: CCHZ: the initials of the main contributor's surname, C from
+    researcher Chen Xi, C from Academician Chen Deliang, H from researcher 
+    Hu Zengyun, Z from Professor Zhou Qiming.
+  The distance between the simulated value and the observed value is used to
+    quantitatively evaluate the overall performance of differentmodels to the
+    reference model. The overall performance of different models to the
+    reference model can be quantified.The distance combines different 
+    statistical measures of correlation coefficient, absolute error and root
+    mean square error, namely CCHZ-DISO.
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Imports:
-    xlsx,
     graphics
