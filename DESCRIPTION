@@ -5,7 +5,7 @@ Version: 0.1.2
 Author@R: 
     c(person(given = 'Zhuo',
         family = 'Zhang',
-        role = c('cre'),
+        role = 'cre',
         email = '1447841396@qq.com'),
     person(given = 'Zengyun',
         family = 'Hu',
