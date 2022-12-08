@@ -20,5 +20,5 @@ Description: CCHZ: the initials of the main contributor's surname, C from
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Import:
+Imports:
     caret
