@@ -1,6 +1,6 @@
 Package: CCHZDISO
 Type: Package
-Title: CCHZ-DISO：New Evaluating System for Models and Big Data
+Title: CCHZ-DISO, New Evaluating System for Models and Big Data
 Version: 0.1.2
 Author: 
     person('Zhuo','Zhang', role = 'cre',email = '1447841396@qq.com'),
