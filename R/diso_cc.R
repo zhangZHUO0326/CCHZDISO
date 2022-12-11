@@ -7,5 +7,11 @@
 #'
 #' @examples
 diso_cc <- function(x) {
-    cor(x)[,1]
+    y <- cor(x)
+    cc <- matrix(0,4,1)
+    for (i in 1:4){
+        cc[i,1] <- y[i,1]
+    }
+    return(cc)
 }
+
