@@ -28,10 +28,7 @@ cat(' CCHZ-DISO
        moedel_2     0.1784       1           1
        moedel_3     0.5737       0.9450      0.9341
 
-     然后进行DISO值的计算：
-
-     DISO_i=√(nors_i^1−nors_0^1)^2+(nors_i^2−nors_0^2)^2+…+(nors_i^n−nors_0^n)^2
-
+     然后进行DISO值的计算
 
      计算结果如下：
 
@@ -61,10 +58,8 @@ cat(' CCHZ-DISO
       步骤2：通过除以极差来归一化所有统计指数。
       (nors_i^1,nors_i^2,…,nors_i^n)=(s_i^1/p^1,s_i^2/p^2,…,s_i^n/p^n)
       其中，p^j=max(s_i^j)−min⁡(s_i^j), i=0,1,…,m, j=1,2,…n, 实现归一化后绝对值小于1；
-      由于CC的取值范围为(−1~1)之间，故没有必要对其归一化。
       步骤3：利用(nors_i^1,noms_i^2,…,nors_i^n)之间的欧氏距离计算DISO：
-      DISO_i=√(nors_i^1−nors_0^1)^2+(nors_i^2−nors_0^2)^2+…+(nors_i^n−nors_0^n)^2
-      其中i=0,1,…,m, m为模拟模型的数量。当i=0时，DISO_0=0表示OBS与自身的距离。
+      当i=0时，DISO_0=0表示OBS与自身的距离。
 
 
       详细介绍请参考文章：
