@@ -7,8 +7,8 @@
 #'
 #' @examples
 diso_rmse <- function(x){
-    rmse <- matrix(0,4,1)
-    for (i in 1:4){
+    rmse <- matrix(0,ncol(x),1)
+    for (i in 1:ncol(x)){
         rmse[i,1] <- caret::RMSE(x[,i], x[,1])
     }
     return(rmse)
