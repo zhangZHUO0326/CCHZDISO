@@ -48,7 +48,7 @@ diso_all <- function(x){
     }
 
     non <- cbind(cc,mae,rmse,diso_1,diso_2,diso_3)
-    colnames(non) <- c("CC", "AE", "RMSE","DISO_1","DISO_2","DISO_3")
+    colnames(non) <- c("CC", "MAE", "RMSE","DISO_1","DISO_2","DISO_3")
     rownames(non) <- c(names(x))
     return(non)
 }
